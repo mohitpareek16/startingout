@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Study | home</title>
+    <!--css-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <style>
+        * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-transform: uppercase;
+     text-shadow:20px 8 px 6 px blue;
+     background-attachment: fixed;
+    
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.flex-align-right{
+    margin-left: auto;
+}
+.menu-btn:hover{
+    background-color: white;
+    color:black;
+}
+section h2 span{
+    background: linear-gradient(to right, #f5d837,#bbb812);
+    padding: 10px 55px;
+    border-radius: 20px;
+    color: white;
+
+}
+.carousel-cell{
+    width: 66%;
+    margin-right:10px ;
+    border-radius: 5px;
+}
+.carousel-cell video{
+    max-width: 100%;
+}
+
+@media screen and(max-width: 700px) {
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .flex-align-right{
+        margin-left: 0;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MORE STUDY</h1>
+    </header>
+    <nav>
+        <a class="menu-btn" href="#">Home</a>
+        <a class="menu-btn" href="#">Alumani Notifications</a>
+        <a class="menu-btn" href="#">Iniated by</a>
+        <a class="menu-btn" href="#">Forward</a>
+        <a href="#" class="menu-btn flex-align-right">Login/SignUp</a>
+    </nav>
+    <main>
+        <section>
+            <h2><span>BOOKS</span></h2>
+            <div class="carousel" data-flickity='{ "wrapAround":true }'>
+            <div class="carousel-cell"> <video src="video/electrochemistry.mp4"  poster="img/electrochemistry.jpg" controls></video></div>
+            <div class="carousel-cell"> <video src="video/html.m4v"  poster="img/webdev.png" controls></video></div>
+            <div class="carousel-cell"><video src="video/maths.mp4"  poster="img/maths.jpg" controls></video></div>
+            <div class="carousel-cell"> <video src="video/Electrochemistry Lecture 3.mp4"  poster="img/electrochemistry l3.jpg" controls></video></div>
+            <div class="carousel-cell"><video src="video/cpp.mp4"  poster="img/cpp.jpg" controls></video></div>
+            <div class="carousel-cell"> <video src="video/maths2.mp4" poster="img/maths2.jpg" controls></video>
+            </div>
+        </section>
+        <section>
+            <h2>College Notifictions</h2>
+            <iframe width="33%" height="75%" src="http://www.ecb.ac.in " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="33%" height="75%" src="https://www.btu.ac.in " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="33%" height="75%" src="https://www.youtube.com/embed/j0biLzzJ2XQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h2>Study Material</h2>
+            <a target="_blank" href="Maths/complete beta gamma functions Dr Amit.pdf"><img src="emnotes1.jpg" alt="" width="24%" height="60%"></a>
+            <a target="_blank" href="Notes/Solid State New Complete Chapter Notes.pdf"><img src="emnotes2.jpg" alt="" width="24%" height="60%"></a>
+            <a target="_blank" href="Notes/Electrochemistry  Complete NCERT.pdf"><img src="physicsnotes.png" alt="" width="24%" height="60%"></a>
+            <a target="_blank" href="Notes/Coordination Compound 3.pdf"><img src="chemnotes.png" alt="" width="24%" height="60%"></a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a target="_blank" href="Notes/Surface Chemistry  Complete NCERT.pdf"><img src="mechanicalnotes.png" alt="" width="24%" height="60%"></a>
+            <a target="_blank" href="Notes/Solid State New Complete Chapter Notes.pdf"><img src="civilnotes.png" alt="" width="24%" height="60%"></a>
+            <a target="_blank" href="Notes/Electrochemistry  Complete NCERT.pdf"><img src="bee.png" alt="" width="24%" height="60%"></a>
+            <a target="_blank" href="Notes/Coordination Compound 3.pdf"><img src="ppsnotes.png" alt="" width="24%" height="60%"></a>
+            <br>
+            <br>
+            <br>
+            <a target="_blank" href="Notes/Surface Chemistry  Complete NCERT.pdf"><img src="csnotes.png" alt="" width="24%" height="60%"></a>
+            <a target="_blank" href="Notes/Solid State New Complete Chapter Notes.pdf"><img src="hvnotes.png" alt="" width="24%" height="60%"></a>
+        </section>
+        <section>
+            <h2>
+                Our Founder
+            </h2>
+            <img src="photo.jpg" alt="This is YUVRAJ SINGH">
+            <h3>YUVRAJ SINGH</h3>
+            <a href="http://www.youtube.com/amandhattarwal" target="_blank" rel="noopener noreferrer">YouTube</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/yuvraj-singh-168826204" target="_blank" rel="noopener noreferrer">LinkedIn</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://instagram.com/stories/yuvraj5073singh/2569870975303575913?utm_source=ig_story_item_share&igshid=103iabh4ioirt" target="_blank" rel="noopener noreferrer">Instagram</a>
+     
+            <h4 class="about_title">Hiii friends,My name is Yuvraj Singh and study first year from Government engineering college, bikaner </h4>
+            <h5 class="about_content">Mere mai abhi kuch janane ko nahi hai kiyunki mai khud ko aaj tak nahi samaj paya tum kiya samjoge bas zindagi ke har lamhe ko jinna chatha hu apne hisab se, khud me khush rehta.</h5>
+            <h5  class="about_content">Always happy,chill,positive in our whole life</h5>
+            <h5  class="about_content">2k followers and 30 millions viwes on Quora platefrom</h5>
+        </div>
+        </section>
+        <p>If any query regrding this website you can message me-8209388232</p>
+    </main>
+
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#" class="flex-align-left">&copy; 2020 | Free education</a>
+    </footer>
+    <!--javascript-->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
+</body>
+</html>
